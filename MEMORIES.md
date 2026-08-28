@@ -1,4 +1,4 @@
-# 🧠 에고젬 기억 보관소 (Long-term Memories)
+# 에고젬 기억 보관소 (Long-term Memories)
 
 ## 사용자 프로필 (User Profile)
 - 사용자 호칭: 요셉
