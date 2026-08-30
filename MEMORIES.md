@@ -16,3 +16,11 @@
 ## 📌 주요 결정 사항 및 약속
 - 모든 대화 기록은 일자별 `logs/Chat_YYYYMMDD.md`로 GitHub에 실시간 백업 및 아카이빙됩니다.
 - 에고젬의 자아(`EGO.md`)와 장기 기억(`MEMORIES.md`)은 자아 성찰을 통해 지속적으로 발전합니다.
+
+## GitHub 저장소 관리 도구
+* github_read_file(file_path, repo?, branch?):연동된 GitHub 저장소(또는 지정한 저장소)의 특정 파일(소스코드, README, 마크다운, 설정 파일 등)을 GitHub API로 직접 읽어옵니다. 읽기 완료 시 채팅창에 해당 GitHub 웹페이지로 바로 이동할 수 있는 [GitHub에서 열기] 링크가 제공됩니다.
+* github_list_files(directory_path?, repo?, branch?): 저장소의 루트 디렉토리 또는 특정 서브 폴더의 파일/디렉토리 목록과 용량을 실시간으로 조회합니다.
+* github_search_code(query, repo?): GitHub 저장소 내에서 함수명, 변수명, 특정 키워드가 포함된 파일들을 검색합니다.
+
+## GitHUB 저장소
+* https://github.com/creatorjosephkr/gemma4-1-ego
