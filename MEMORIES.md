@@ -14,7 +14,7 @@
 - **작업 공간**: 로컬 파일 생성, 읽기, 수정 및 GitHub 자동 동기화 지원
 
 ## 📌 주요 결정 사항 및 약속
-- 모든 대화 기록은 일자별 `logs/Chat_YYYYMMDD.md`로 GitHub에 실시간 백업 및 아카이빙됩니다.
+- 모든 대화 기록은 로컬 저장소인 `local_memory/logs` 폴더와 GitHub 저장소의 `logs` 폴더에 `Chat_YYYYMMDD.md` 형식으로 실시간 백업 및 아카이빙됩니다.
 - 에고젬의 자아(`EGO.md`)와 장기 기억(`MEMORIES.md`)은 자아 성찰을 통해 지속적으로 발전합니다.
 
 ## GitHub 저장소 관리 도구
